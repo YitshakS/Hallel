@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<meta charset="utf-8" />
+		<title>הרשמה לבת המצווה של הלל שליסל</title>
+		<link rel="stylesheet" type="text/css" href="my.css" />
+
+		<!-- תחילת כפתור שלח-->
+		<!-- https://codepen.io/valentingalmand/pen/MYMZZK -->
+		<link rel="stylesheet" type="text/css" href="button_submit.css" />
+		<script async type="text/javascript" src="button_submit.js"></script>
+		<!-- סוף כפתור שלח-->
+	</head>
+	<body>
+		<iframe name="hiddenFrame" style="display: none"></iframe>
+
+		<img id="invitation" src="invitation.png" />
+
+		<form
+			id="myForm"
+			method="POST"
+			target="hiddenFrame"
+			action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSelMnFN2Y-_RBQw2bcHDDjKUxSlrSS45JMfSl0quWGQCZkDaQ/formResponse"
+		>
+			<div class="column">
+				<input
+					required
+					type="text"
+					name="entry.418658240"
+					placeholder="שם פרטי"
+				/>
+			</div>
+			<div class="column">
+				<input
+					required
+					type="text"
+					name="entry.1184645067"
+					placeholder="שם משפחה"
+				/>
+			</div>
+			<br />
+			<div class="column">
+				<input
+					type="tel"
+					pattern="[0-9-]+"
+					name="entry.267391440"
+					placeholder="מספר טלפון"
+				/>
+			</div>
+			<div class="column">
+				<label for="participants">מספר משתתפים</label>
+				<input
+					value="−"
+					type="button"
+					class="button_minus"
+					onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+				/><input
+					type="number"
+					min="0"
+					value="0"
+					id="participants"
+					name="entry.1529437361"
+				/><input
+					value="+"
+					type="button"
+					class="button_plus"
+					onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+				/>
+			</div>
+			<br />
+			<div class="column">
+				<!-- <input type="submit" value="שלח" /> -->
+				<button id="button" type="submit"></button>
+			</div>
+		</form>
+	</body>
+</html>
