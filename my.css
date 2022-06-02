@@ -13,7 +13,11 @@ body {
 
 @media only screen and (max-width: 560px) {
 	#invitation {
-		width: 250px;
+		width: 300px;
+	}
+
+	.column {
+		width: 300px;
 	}
 }
 
