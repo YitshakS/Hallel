@@ -4,8 +4,7 @@ body {
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 20px;
-	background: #fff0f0;
-	background: #c1ce11;
+	background: #c1ce11; /* #fff0f0; */
 }
 
 #invitation {
@@ -14,14 +13,14 @@ body {
 
 @media only screen and (max-width: 560px) {
 	body {
-		background: #23ab8e;
+		background: #23ab8e; /* #23ab8e; */
 	}
 	#invitation {
 		width: 400px;
 	}
 
 	.column {
-		width: 500px;
+		width: 560px;
 	}
 }
 

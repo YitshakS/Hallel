@@ -13,7 +13,7 @@ function validate() {
 			document.querySelector("#button").classList.add("validate");
 			callback();
 		}, 450);
-	}, 2250);
+	}, 1795); // 2250
 }
 function callback() {
 	setTimeout(() => {
