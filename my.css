@@ -16,12 +16,12 @@ body {
 background: #abd2345;
 }
 	#invitation {
-		width: 90%;
+		width: 500px;
 	}
 
-	/* .column {
-		width: 300px;
-	} */
+	.column {
+		width: 500px;
+	}
 }
 
 input {
