@@ -4,17 +4,18 @@ body {
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 20px;
-	background: green; /* #fff0f0; */
+	background: #fff0f0;
+	background: #c1ce11;
 }
 
 #invitation {
-	width: 520px;
+	width: 400px;
 }
 
 @media only screen and (max-width: 560px) {
-body {
-background: #b2345;
-}
+	body {
+		background: #ab2345;
+	}
 	#invitation {
 		width: 500px;
 	}
