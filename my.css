@@ -14,10 +14,10 @@ body {
 
 @media only screen and (max-width: 560px) {
 	body {
-		background: #ab2345;
+		background: #23ab8e;
 	}
 	#invitation {
-		width: 500px;
+		width: 400px;
 	}
 
 	.column {
