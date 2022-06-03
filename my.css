@@ -13,7 +13,7 @@ body {
 
 @media only screen and (max-width: 560px) {
 body {
-background: red;
+background: blue;
 }
 	#invitation {
 		width: 300px;
