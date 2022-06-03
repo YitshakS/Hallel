@@ -4,23 +4,19 @@ body {
 	font-family: Arial;
 	font-weight: bold;
 	font-size: 20px;
-	background: #c1ce11; /* #fff0f0; */
+	background: #fff0f0;
 }
 
 #invitation {
-	width: 400px;
+	width: 750px;
 }
 
 @media only screen and (max-width: 560px) {
 	body {
-		background: #23ab8e; /* #23ab8e; */
+		background: #23ab8e;
 	}
 	#invitation {
 		width: 400px;
-	}
-
-	.column {
-		width: 560px;
 	}
 }
 
